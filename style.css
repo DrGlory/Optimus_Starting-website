@@ -6,9 +6,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
-a,
-button {
+a, button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
@@ -38,6 +36,10 @@ a:hover {
     background-size: cover;
     position: relative;
 }
+/* .page-container .keywords{
+    color:#cccccc;
+    font-size:1px;
+} */
 
 .bloc .container {
     padding-left: 0;
@@ -55,8 +57,7 @@ a:hover {
 .bloc-sm {
     padding: 20px 50px;
 }
-
-.bg-center,
+/* .bg-center,
 .bg-l-edge,
 .bg-r-edge,
 .bg-t-edge,
@@ -70,7 +71,7 @@ a:hover {
     -moz-background-size: auto!important;
     -o-background-size: auto!important;
     background-size: auto!important;
-}
+} */
 
 .bg-repeat {
     background: repeat;
@@ -699,10 +700,10 @@ p {
     font-weight: 700;
 }
 
-.social {
+/* .social {
     max-width: 400px;
     margin: auto auto auto auto;
-}
+} */
 
 h2 {
     font-size: 22px;
@@ -736,6 +737,8 @@ h4 {
 }
 
 .white {
+    margin-top: 5%;
+    font-size:18px;
     color: #FFFFFF!important;
 }
 
@@ -771,15 +774,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #8B4110;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #8B4110;
     color: #FFFFFF!important;
 }
 
