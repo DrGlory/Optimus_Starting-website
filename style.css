@@ -818,9 +818,6 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
-/* @media (max-width: 1024px) {
-   
-} */
 
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
@@ -1006,11 +1003,7 @@ h4 {
     }
 }
 
-/* @media (max-width: 400px) {
-    .bloc {
-        padding: 0;
-    }
-} */
+
 
 @media (max-width: 1440px) {
     .bloc {
@@ -1178,17 +1171,43 @@ h4 {
         display: block;
         margin: 0;
     }
-    .navbar-collapse{
+    .list{
         display: none;
+    }
+    .list.is-visible{
+        display: block;
+    }
+    .navbar-collapse ul li{
+        background-color: #773305;
+        border: 2px solid rgb(170, 170, 170);
+        padding: 0;
+    }
+    .navbar-collapse ul li a{
+        color: white!important;
+    }
+    .navbar-collapse ul{
+        display: flex;
+        flex-direction: column;
+        width: 55px;
+        right: 70px;
+        line-height: 25px;
+        top:50px;
+    }
+    .navbar-collapse ul{
+        display: block;
     }
     .navbar-header{
         padding: 3%;
         display: flex;
     }
-    #nav-toggle:active .navbar-collapse{
-        display: block;
+}
+@media (max-width: 320px){
+    .navbar-collapse ul{
+        display: flex;
+        flex-direction: column;
+        width: 55px;
+        right: 25px;
+        line-height: 15px;
+        top:50px;
     }
-    /* .navbar-brand{
-        text-align: center;
-    } */
 }
