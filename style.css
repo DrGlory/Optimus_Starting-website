@@ -610,6 +610,7 @@ h4 {
     background-color: #8B4110;
 }
 .tc-white { 
+    position: relative;
     color: #ffffff!important;
 }
 .remplacement{
